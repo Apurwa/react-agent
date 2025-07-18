@@ -113,3 +113,7 @@ builder.add_edge("tools", "call_model")
 
 # Compile the builder into an executable graph
 graph = builder.compile(name="ReAct Agent")
+
+
+def build_graph():
+    return graph
